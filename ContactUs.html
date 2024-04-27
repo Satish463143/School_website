@@ -1,0 +1,232 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAHAL Secondary School</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    button {
+      color: #00db8b;
+      width: 1.%;
+      border: #f2f2f2;
+  
+    }
+  
+    * {
+      box-sizing: border-box;
+    }
+  
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid rgb(154, 39, 39);
+      border-radius: 4px;
+      resize: vertical;
+    }
+  
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+  
+    input[type=submit] {
+      background-color: #00db8b;
+      color: rgb(235, 30, 30);
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+  
+    input[type=submit]:hover {
+      background-color: #052607;
+      color: #00db8b;
+      width: 1.%;
+      border: #f2f2f2;
+  
+    }
+  
+    .col-25 {
+      float: left;
+      width: 20%;
+      margin-top: 6px;
+    }
+  
+    .col-75 {
+      float: left;
+      width: 70%;
+      margin-top: 6px;
+    }
+  
+  
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+  
+  </style>
+</head>
+
+<body>
+  <header>
+      <nav class="container menu">
+          <div class="menu-cont">
+              <div class="logo">
+                  <a href="index.html">
+                      <img src="img/logo.png" alt="Logo">
+                  </a>
+              </div>
+              <div class="nav-cont">
+                  <ul>
+                      <a href="index.html" >
+                          <li >Home</li>
+                      </a>
+                      <a href="about.html">
+                          <li>About Us</li>
+                      </a>
+                      <a href="Admission.html">
+                          <li >Admission</li>
+                      </a>
+                      <a href="Programs.html">
+                          <li >Programs</li>
+                      </a>
+                      <a href="Resources.html">
+                          <li>Resources</li>
+                      </a>
+                      <a href="ContactUs.html">
+                          <li class="active">Contact Us <i class="fa-solid fa-magnifying-glass"></i></li>
+                      </a>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <hr>
+  </header>
+
+
+  <div class="container">
+    <form action="">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="Nepal">Nepal</option>
+            <option value="SAARC">SAARC</option>
+            <option value="Foreign">Foreign</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Description</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+      </div>
+
+      <form action="action.html">
+        <p>Place to Visit : <input type="text" name="" id=""></p>
+
+        <p>Budget : <input type="text" name="" id=""></p>
+        <p>Contact no.: <input type="text" name="" id=""></p>
+        <button>SUBMIT</button>
+
+      </form>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container footer-menu">
+        <div class="footer-menu-1">
+            <ul>
+                <h3>More Courses</h3>
+                <a href="">
+                    <li><i class="fa-solid fa-arrow-right"></i> Affordable Costs</li>
+                </a>
+                <a href="">
+                    <li><i class="fa-solid fa-arrow-right"></i> High-profile Faculties</li>
+                </a>
+                <a href="">
+                    <li><i class="fa-solid fa-arrow-right"></i> Guaranteed Career</li>
+                </a>
+                <a href="">
+                    <li><i class="fa-solid fa-arrow-right"></i> Modern Courses</li>
+                </a>
+                <a href="">
+                    <li><i class="fa-solid fa-arrow-right"></i> Research Programs</li>
+                </a>
+            </ul>
+        </div>
+        <div class="footer-menu-1">
+            <ul>
+                <h3>Lorem Ipsum</h3>
+                <a href="">
+                    <li><i class="fa-solid fa-arrow-right"></i> Lorem Ipsum</li>
+                </a>
+                <a href="">
+                    <li><i class="fa-solid fa-arrow-right"></i> Lorem Ipsum</li>
+                </a>
+                <a href="">
+                    <li><i class="fa-solid fa-arrow-right"></i> Lorem Ipsumr</li>
+                </a>
+                <a href="">
+                    <li><i class="fa-solid fa-arrow-right"></i> Lorem Ipsum</li>
+                </a>
+                <a href="">
+                    <li><i class="fa-solid fa-arrow-right"></i> Lorem Ipsum</li>
+                </a>
+            </ul>
+        </div>
+        <div class="footer-menu-3">
+            <ul>
+                <h3>Follow Us on Social Media</h3>
+                <a href="">
+                    <li><i class="fa-brands fa-facebook-f"></i> </li>
+                </a>
+                <a href="">
+                    <li><i class="fa-brands fa-instagram"></i> </li>
+                </a>
+                <a href="">
+                    <li><i class="fa-brands fa-linkedin-in"></i> </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<footer class="copy-footer">
+    <div class="container copy-footer-cont">
+        <p>Copyright © 2020 Dahal School: Designed And Developed By Avisek Dahal</p>
+    </div>
+</footer>
+</body>
+
+</html>
+
